@@ -1,6 +1,6 @@
 import { startWorker } from 'jazz-nodejs';
 import { parseArgs } from 'node:util';
-import { Issue, ListOfIssues, Project } from "../schema.ts";
+import { Issue, Project } from "../schema.ts";
 import { faker } from '@faker-js/faker';
 import { type ID } from 'jazz-tools';
 
