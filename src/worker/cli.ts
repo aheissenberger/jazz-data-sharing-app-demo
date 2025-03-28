@@ -51,9 +51,6 @@ if (!project) { throw new Error("Project not found or not accessible"); }
 if (args.values['delete']) {
     console.log(`Deleting issues for project "${project.name}"`);
     await project.issues.waitForSync();
-    // const group = Group.create();
-    // group.addMember("everyone", "writer");
-    // project.issues = ListOfIssues.create([], { owner: group });
     let countDelete = 0;
     try {
         while (true) {
