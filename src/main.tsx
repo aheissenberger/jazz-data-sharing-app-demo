@@ -14,7 +14,7 @@ createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <JazzProvider
     //sync={{peer:"ws://127.0.0.1:4200"}}
-    sync={{peer:"wss://cloud.jazz.tools/?key=andreas@heissenberger.at"}}
+    sync={{peer:"wss://cloud.jazz.tools/?key=jazz.test.001@yopmail.com"}}
     //defaultProfileName={defaultProfileName}
     >
       <JazzInspector />
